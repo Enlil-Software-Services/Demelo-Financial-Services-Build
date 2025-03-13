@@ -1,0 +1,537 @@
+{
+    "FinanceSettings": [
+        {
+            "SettingsTitle": "Assets",
+            "DisplayString": "Assets",
+            "FinancialSheet": 0,  
+            "Groups": [
+                {
+                    "GroupName": "Current Assets",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Cash - Operations",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Tenant accounts receivable",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Allowance for doubtful accounts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Prepaid Expenses",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Current Assets",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "DEPOSITS HELD IN TRUST - FUNDED",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Tenant Deposits",
+                            "Indent": 1
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "RESTRICTED DEPOSITS AND FUNDED RESERVES",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Reserve for Replacements",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Residual receipts reserve",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Restricted Deposits And Funded Reserves",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "RENTAL PROPERTY",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Land",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Buildings",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Furnishings",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Less accumulated depreciation",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Rental Property",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "TotalAssets",
+                    "FinancialLineItems":  null
+                }
+            ]
+        },
+        {
+            "SettingsTitle": "Liabilities",
+            "DisplayString": "Liabilities and Shareholders' Equity",
+            "Groups": [
+                {
+                    "GroupName": "Current Liabilities",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Accounts Payable - Operations",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Accrued interest payable - first mortgage",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Mortgage payable - first mortgage, current maturities",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Prepaid Revenue",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Current Liabilities",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "DEPOSITS LIABILITY",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Tenant Deposits held in trust (contra)",
+                            "Indent": 1
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "LONG-TERM LIABILITIES",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Mortgage Payable - First Mortgage, Net",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Long Term Liabilities",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Liabilities",
+                            "Indent": 1
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "OWNERS' EQUITY (DEFICIT)",
+                    "FinancialLineItems": null
+                },
+                {
+                    "GroupName": "TOTAL LIABILITIES AND OWNERS' EQUITY (DEFICIT)",
+                    "FinancialLineItems": null
+                }
+            ]
+        },
+        {
+            "SettingsTitle": "StatementOperations",
+            "DisplayString": "Statement of Operations",
+            "Groups": [
+                {
+                    "GroupName": "",
+                    "FinancialLineItems": null
+                },
+                {
+                    "GroupName": "Revenue",
+                    "FinancialLineItems": null
+                },
+                {
+                    "GroupName": "Cost of Revenue Earned",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Rent Revenue - Gross Potential",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Tenant Assistance Payments",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Miscellaneous Rent Revenue",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Rental Revenue",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "OTHER REVENUE",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Laundry And Vending",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Tenant Charges",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Other Revenue",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Total Revenue",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "ADMINISTRATIVE EXPENSES",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Office Expenses",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Management Fee",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Manager or Superintendent Salaries",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Legal Expense - Project",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Auditing Expense",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Bookkeeping Fees/Accounting Services",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Miscellaneous Administrative Expenses",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Administrative Expenses",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "UTILTIES EXPENSE",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Electricity",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Water",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Gas",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Sewer",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Utilities Expense",
+                            "PriorYearTag": "",
+                            "CurrentYearTag": "",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "OPERATING AND MAINTENANCE EXPENSES",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Supplies",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Contracts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Garbage and Trash Removal",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Miscellaneous Operating and Maintenance Expenses",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Operating and Maintenance Expenses",
+                            "Indent": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SettingsTitle": "StatementOperations_Cont",
+            "DisplayString": "Statement of Operations - Continued",
+            "Groups": [
+                {
+                    "GroupName": "TAXES AND INSURANCE",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Real Estate Taxes",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Payroll Taxes",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Property and Liability Insurance",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Workmen's Compensation",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Taxes and Insurance",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "FINANCIAL EXPENSES",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Interest on First Mortgage Payable",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Miscellaneous Financial Expenses",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Financial Expenses",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Total Cost of Operations before depreciation and amortization",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Income (loss) before depreciation and amortization",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "DEPRECIATION AND AMORTIZATION",
+                    "FinancialLineItems": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "SettingsTitle": "Cashflow",
+            "DisplayString": "Statement of Cash Flows",
+            "Groups": [
+                {
+                    "GroupName": "Cash Flows from Operating Activiates",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Rental Receipts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Other operating receipts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Receipts",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Administrative Expenses Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Management Fees Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Utilities Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Salaries and Wages Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Real Estate Taxes Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Property Insurance Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Net tenant security deposits received (paid)",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Other operating expenses paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Interest Paid on First Mortgage",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Miscellaneous Financial Expenses Paid",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total Disbursements",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Net cash provided by operating activities",
+                            "Indent": 2
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "Cash Flows from Financing Activities",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Mortgage Principal Payments - First Mortgage",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Other operating receipts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Distributions",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Net Cash used in financing activities",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "NET INCREASE (DECREASE) IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Cash, cash equivalents, and restricted cash, beginning",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Cash, cash equivalents, and restricted cash, end",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Cash paid for interest",
+                            "Indent": 1
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "Reconciliation of Net Income (loss) to net cash provided by operating activities",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Net Income (loss)",
+                            "Indent": 1
+                        }
+                    ]
+                },
+                {
+                    "GroupName": "Adjustments to reconcile net income (loss) to net cash provided by operating activities",
+                    "FinancialLineItems": [
+                        {
+                            "Description": "Depreciation",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Amortization of Debt Issuance Costs",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Changes in Asset And Liability Accounts",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Increase (decrease) in liabilities",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Accounts Payable",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Accrued Interest Payable",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Tenant Security Deposits held in trust",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Prepaid Revenue",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Total Adjustments",
+                            "Indent":  1
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+
+}
