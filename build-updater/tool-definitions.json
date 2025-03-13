@@ -1,0 +1,12 @@
+{
+    "Tools": [
+        {
+            "ToolName": "CaioTemplatingProject",
+            "Definition": {
+                "RepositoryURL": "https://github.com/Enlil-Software-Services/Demelo-Financial-Services-Build.git",
+                "VersionURL": "https://github.com/Enlil-Software-Services/Demelo-Financial-Services-Build.git/main/version.txt",
+                "ExePath":  "CaioTemplatingProject.exe"
+            }
+        }
+    ]
+}
