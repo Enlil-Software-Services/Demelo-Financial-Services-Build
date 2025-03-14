@@ -35,7 +35,8 @@
     table {
         width: 100%;
         margin-left: 0px;
-        border-collapse: collapse;
+        border-collapse: separate;
+        border-spacing: 15px 0px;
         font-size: 14px;
     }
 
@@ -50,7 +51,15 @@
     }
 
     th.two {
-        width: 90px;
+        width: 120px;
+    }
+
+    th.two-note {
+        width: 600px;
+    }
+
+    th.one {
+        width: 240px;
     }
 
     th.four {
@@ -68,7 +77,6 @@
     .center {
         text-align: center;
     }
-
     .include-border {
         border-bottom: 1px solid black;
         margin: 3px;
@@ -102,6 +110,10 @@
         margin-right: {{P_REVIEW_MARGIN}}px;
     }
 
+    .review-left {
+        margin-left: {{P_REVIEW_MARGIN}}px;
+    }
+
     .section-title {
         font-size: 12px;
         margin-left: {{P_REVIEW_MARGIN}}px;
@@ -119,4 +131,12 @@
         margin-bottom: 0px;
     }
 
+    h5 {
+        font-size: 16px;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
 </style>

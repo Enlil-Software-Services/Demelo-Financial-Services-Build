@@ -82,7 +82,7 @@
                     ]
                 },
                 {
-                    "GroupName": "TotalAssets",
+                    "GroupName": "Total Assets",
                     "FinancialLineItems":  null
                 }
             ]
@@ -143,7 +143,7 @@
                     ]
                 },
                 {
-                    "GroupName": "OWNERS' EQUITY (DEFICIT)",
+                    "GroupName": "OWNERS EQUITY (DEFICIT)",
                     "FinancialLineItems": null
                 },
                 {
@@ -157,15 +157,7 @@
             "DisplayString": "Statement of Operations",
             "Groups": [
                 {
-                    "GroupName": "",
-                    "FinancialLineItems": null
-                },
-                {
-                    "GroupName": "Revenue",
-                    "FinancialLineItems": null
-                },
-                {
-                    "GroupName": "Cost of Revenue Earned",
+                    "GroupName": "Rental Revenue",
                     "FinancialLineItems": [
                         {
                             "Description": "Rent Revenue - Gross Potential",
@@ -368,7 +360,26 @@
                 {
                     "GroupName": "DEPRECIATION AND AMORTIZATION",
                     "FinancialLineItems": [
-
+                        {
+                            "Description": "Depreciation Expense",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Amortization Expense",
+                            "Indent": 1
+                        },
+                        {
+                            "Description": "Total depreciation and amortization",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Total Expenses",
+                            "Indent": 2
+                        },
+                        {
+                            "Description": "Net Income (loss)",
+                            "Indent":  1
+                        }
                     ]
                 }
             ]
